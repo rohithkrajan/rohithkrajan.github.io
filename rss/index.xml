@@ -1,1 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://rohithkrajan.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 16 Jul 2016 06:38:32 GMT</lastBuildDate><atom:link href="https://rohithkrajan.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Blog Title]]></title><link>https://rohithkrajan.github.io/2015/01/31/Blog-Title.html</link><guid isPermaLink="true">https://rohithkrajan.github.io/2015/01/31/Blog-Title.html</guid><category><![CDATA[HubPress]]></category><category><![CDATA[ Blog]]></category><category><![CDATA[ Open Source]]></category><pubDate>Sat, 31 Jan 2015 00:00:00 GMT</pubDate></item></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://rohithkrajan.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 20 Jul 2016 09:03:51 GMT</lastBuildDate><atom:link href="https://rohithkrajan.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[IE Edge not working in your windows 10 machine,getting page cannot be displayed]]></title><description><![CDATA[<div class="paragraph">
+<p>Are you running into connectivity issue with your IE edge ? Every other browser works but only IE edge is not working!! Even Internet explorer works. It turns out the root cause was very simple for me</p>
+</div>
+<div class="paragraph">
+<p>##a simple registry change</p>
+</div>
+<div class="paragraph">
+<p>###make sure you have permission on HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkList for user "netprofm". if not ,please provide read permissions.</p>
+</div>
+<div class="paragraph">
+<p>I see that lot of users run into this issue and no one found a solution.See if this setting helps you.</p>
+</div>]]></description><link>https://rohithkrajan.github.io/2015/07/20/IE-Edge-not-working-in-your-windows-10-machinegetting-page-cannot-be-displayed.html</link><guid isPermaLink="true">https://rohithkrajan.github.io/2015/07/20/IE-Edge-not-working-in-your-windows-10-machinegetting-page-cannot-be-displayed.html</guid><category><![CDATA[IE Edge]]></category><category><![CDATA[Internet not working]]></category><pubDate>Mon, 20 Jul 2015 00:00:00 GMT</pubDate></item></channel></rss>
