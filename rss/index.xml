@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://rohithkrajan.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 20 Jul 2016 09:03:51 GMT</lastBuildDate><atom:link href="https://rohithkrajan.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[IE Edge not working in your windows 10 machine,getting page cannot be displayed]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://rohithkrajan.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 20 Jul 2016 09:05:33 GMT</lastBuildDate><atom:link href="https://rohithkrajan.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[IE Edge not working in your windows 10 machine,getting page cannot be displayed]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
 <p>Are you running into connectivity issue with your IE edge ? Every other browser works but only IE edge is not working!! Even Internet explorer works. It turns out the root cause was very simple for me</p>
 </div>
-<div class="paragraph">
-<p>##a simple registry change</p>
 </div>
-<div class="paragraph">
-<p>###make sure you have permission on HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkList for user "netprofm". if not ,please provide read permissions.</p>
 </div>
+<div class="sect3">
+<h4 id="_a_simple_registry_change">a simple registry change</h4>
+<div class="sect4">
+<h5 id="_make_sure_you_have_permission_on_hkey_local_machine_software_microsoft_windows_nt_currentversion_networklist_for_user_netprofm_if_not_please_provide_read_permissions">make sure you have permission on HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkList for user "netprofm". if not ,please provide read permissions.</h5>
 <div class="paragraph">
 <p>I see that lot of users run into this issue and no one found a solution.See if this setting helps you.</p>
+</div>
+</div>
 </div>]]></description><link>https://rohithkrajan.github.io/2015/07/20/IE-Edge-not-working-in-your-windows-10-machinegetting-page-cannot-be-displayed.html</link><guid isPermaLink="true">https://rohithkrajan.github.io/2015/07/20/IE-Edge-not-working-in-your-windows-10-machinegetting-page-cannot-be-displayed.html</guid><category><![CDATA[IE Edge]]></category><category><![CDATA[Internet not working]]></category><pubDate>Mon, 20 Jul 2015 00:00:00 GMT</pubDate></item></channel></rss>
