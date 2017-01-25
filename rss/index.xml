@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://rohithkrajan.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 25 Jan 2017 04:41:24 GMT</lastBuildDate><atom:link href="https://rohithkrajan.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[IE Edge not working in your windows 10 machine,getting page cannot be displayed]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://rohithkrajan.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 25 Jan 2017 06:15:04 GMT</lastBuildDate><atom:link href="https://rohithkrajan.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[MicroServices checklist]]></title><description><![CDATA[<div class="paragraph">
+<p>Are you planning to convert your application to microservices or fresh start developing on microservices architecture ? Think again!.</p>
+</div>
+<div class="paragraph">
+<p>Here&#8217;s a checklist for you to consider!</p>
+</div>
+<div class="paragraph">
+<p>Do you have ?</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Basic Monitoring, instrumentation, health checks for all services in place</p>
+</li>
+<li>
+<p>Distributed logging, tracing where we can easily track down from one single place</p>
+</li>
+<li>
+<p>Ready to isolate whole build+test+package for every service</p>
+</li>
+<li>
+<p>Can define upstream/downstream/compile-time/runtime dependencies clearly for each service</p>
+</li>
+<li>
+<p>Good unit testing</p>
+</li>
+<li>
+<p>Know infrastructure automation.This is where we may have to use docker or kubernate etc</p>
+</li>
+<li>
+<p>Have working CI/CD infrastructure</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>If you have not thought about these,please do not do microservices .MicroServices require a lot more engineering discipline than developing as Monolithic application. here are some caveats and some advices</p>
+</div>
+<div class="paragraph">
+<p><a href="https://www.stavros.io/posts/microservices-cargo-cult/" class="bare">https://www.stavros.io/posts/microservices-cargo-cult/</a>
+<a href="http://basho.com/posts/technical/microservices-please-dont/" class="bare">http://basho.com/posts/technical/microservices-please-dont/</a>
+<a href="http://lightstep.com/blog/the-end-of-microservices/" class="bare">http://lightstep.com/blog/the-end-of-microservices/</a></p>
+</div>
+<div class="paragraph">
+<p>If you are still not sure,  <strong>An easy  approach is to design like microservices and develop like a monolithic application </strong> . Thinking about microservices will force you to define module, their boundary and interfaces. A monolith will simplify deployment, refactoring. Once your code matures, you&#8217;ll know if any microservice has to be taken out and deployed seperately as a microservice .</p>
+</div>]]></description><link>https://rohithkrajan.github.io/2015/07/20/Micro-Services-checklist.html</link><guid isPermaLink="true">https://rohithkrajan.github.io/2015/07/20/Micro-Services-checklist.html</guid><category><![CDATA[monolithic]]></category><category><![CDATA[ MicroServices]]></category><pubDate>Mon, 20 Jul 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[IE Edge not working in your windows 10 machine,getting page cannot be displayed]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>Are you running into connectivity issue with your IE edge ? Every other browser works but only IE edge is not working!! Even Internet explorer works. It turns out the root cause was very simple for me</p>
