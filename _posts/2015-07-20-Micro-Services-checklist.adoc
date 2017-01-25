@@ -1,0 +1,28 @@
+= MicroServices checklist
+:published_at: 2015-07-20
+:hp-tags: monolithic, MicroServices
+
+Are you planning to convert your application to microservices or fresh start developing on microservices architecture ? Think again!. 
+
+Here's a checklist for you to consider!
+
+Do you have ? 
+
+•	Basic Monitoring, instrumentation, health checks for all services in place
+•	Distributed logging, tracing where we can easily track down from one single place
+•	Ready to isolate whole build+test+package for every service
+•	Can define upstream/downstream/compile-time/runtime dependencies clearly for each service
+•	Good unit testing 
+•	Know infrastructure automation.This is where we may have to use docker or kubernate etc
+•	Have working CI/CD infrastructure
+
+
+If you have not thought about these,please do not do microservices .MicroServices require a lot more engineering discipline than developing as Monolithic application. here are some caveats and some advices 
+
+https://www.stavros.io/posts/microservices-cargo-cult/ 
+http://basho.com/posts/technical/microservices-please-dont/ 
+http://lightstep.com/blog/the-end-of-microservices/ 
+
+If you are still not sure,  **An easy  approach is to design like microservices and develop like a monolithic application ** . Thinking about microservices will force you to define module, their boundary and interfaces. A monolith will simplify deployment, refactoring. Once your code matures, you'll know if any microservice has to be taken out and deployed seperately as a microservice .
+
+
