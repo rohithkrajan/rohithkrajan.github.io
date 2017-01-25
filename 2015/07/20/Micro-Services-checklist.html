@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>MicroServices checklist</title>
+    <meta name="description" content="" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="https://rohithkrajan.github.io/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="//rohithkrajan.github.io/themes/casper/assets/css/screen.css?v=1485324904346" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+
+    <link rel="canonical" href="https://rohithkrajan.github.io/2015/07/20/Micro-Services-checklist.html" />
+    <meta name="referrer" content="origin" />
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="MicroServices checklist" />
+    <meta property="og:description" content="Are you planning to convert your application to microservices or fresh start developing on microservices architecture ? Think again!. Here&amp;#8217;s a checklist for you to consider! Do you have ? Basic Monitoring, instrumentation, health checks for all services in place Distributed logging, tracing where we can easily track down from" />
+    <meta property="og:url" content="https://rohithkrajan.github.io/2015/07/20/Micro-Services-checklist.html" />
+    <meta property="article:tag" content="monolithic" />
+    <meta property="article:tag" content=" MicroServices" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="MicroServices checklist" />
+    <meta name="twitter:description" content="Are you planning to convert your application to microservices or fresh start developing on microservices architecture ? Think again!. Here&amp;#8217;s a checklist for you to consider! Do you have ? Basic Monitoring, instrumentation, health checks for all services in place Distributed logging, tracing where we can easily track down from" />
+    <meta name="twitter:url" content="https://rohithkrajan.github.io/2015/07/20/Micro-Services-checklist.html" />
+    
+    <script type="application/ld+json">
+null
+    </script>
+
+    <meta name="generator" content="HubPress" />
+    <link rel="alternate" type="application/rss+xml" title="" href="https://rohithkrajan.github.io/rss/" />
+</head>
+<body class="post-template tag-monolithic tag-Micro-Services nav-closed">
+
+    
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post tag-monolithic tag-Micro-Services">
+
+        <header class="post-header">
+            <h1 class="post-title">MicroServices checklist</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2015-07-20">20 July 2015</time>  on <a href="https://rohithkrajan.github.io/tag/monolithic/">monolithic</a>, <a href="https://rohithkrajan.github.io/tag/Micro-Services/"> MicroServices</a>
+            </section>
+        </header>
+
+        <section class="post-content">
+            <div class="paragraph">
+<p>Are you planning to convert your application to microservices or fresh start developing on microservices architecture ? Think again!.</p>
+</div>
+<div class="paragraph">
+<p>Here&#8217;s a checklist for you to consider!</p>
+</div>
+<div class="paragraph">
+<p>Do you have ?</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Basic Monitoring, instrumentation, health checks for all services in place</p>
+</li>
+<li>
+<p>Distributed logging, tracing where we can easily track down from one single place</p>
+</li>
+<li>
+<p>Ready to isolate whole build+test+package for every service</p>
+</li>
+<li>
+<p>Can define upstream/downstream/compile-time/runtime dependencies clearly for each service</p>
+</li>
+<li>
+<p>Good unit testing</p>
+</li>
+<li>
+<p>Know infrastructure automation.This is where we may have to use docker or kubernate etc</p>
+</li>
+<li>
+<p>Have working CI/CD infrastructure</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>If you have not thought about these,please do not do microservices .MicroServices require a lot more engineering discipline than developing as Monolithic application. here are some caveats and some advices</p>
+</div>
+<div class="paragraph">
+<p><a href="https://www.stavros.io/posts/microservices-cargo-cult/" class="bare">https://www.stavros.io/posts/microservices-cargo-cult/</a>
+<a href="http://basho.com/posts/technical/microservices-please-dont/" class="bare">http://basho.com/posts/technical/microservices-please-dont/</a>
+<a href="http://lightstep.com/blog/the-end-of-microservices/" class="bare">http://lightstep.com/blog/the-end-of-microservices/</a></p>
+</div>
+<div class="paragraph">
+<p>If you are still not sure,  <strong>An easy  approach is to design like microservices and develop like a monolithic application </strong> . Thinking about microservices will force you to define module, their boundary and interfaces. A monolith will simplify deployment, refactoring. Once your code matures, you&#8217;ll know if any microservice has to be taken out and deployed seperately as a microservice .</p>
+</div>
+        </section>
+
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="https://rohithkrajan.github.io/author/rohithkrajan/" style="background-image: url(https://avatars.githubusercontent.com/u/213713?v&#x3D;3)"><span class="hidden">rohithkrajan's Picture</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href="https://rohithkrajan.github.io/author/rohithkrajan/">rohithkrajan</a></h4>
+
+                    <p>Read <a href="https://rohithkrajan.github.io/author/rohithkrajan/">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=MicroServices%20checklist&amp;url=https://rohithkrajan.github.io/2015/07/20/Micro-Services-checklist.html"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://rohithkrajan.github.io/2015/07/20/Micro-Services-checklist.html"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=https://rohithkrajan.github.io/2015/07/20/Micro-Services-checklist.html"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+
+    </article>
+
+</main>
+
+<aside class="read-next">
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="https://rohithkrajan.github.io"></a> &copy; 2017</section>
+            <section class="poweredby">Proudly published with <a href="http://hubpress.io">HubPress</a></section>
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
+      <script type="text/javascript">
+        jQuery( document ).ready(function() {
+          // change date with ago
+          jQuery('ago.ago').each(function(){
+            var element = jQuery(this).parent();
+            element.html( moment(element.text()).fromNow());
+          });
+        });
+
+        hljs.initHighlightingOnLoad();
+      </script>
+
+    <script type="text/javascript" src="//rohithkrajan.github.io/themes/casper/assets/js/jquery.fitvids.js?v=1485324904346"></script>
+    <script type="text/javascript" src="//rohithkrajan.github.io/themes/casper/assets/js/index.js?v=1485324904346"></script>
+
+</body>
+</html>
