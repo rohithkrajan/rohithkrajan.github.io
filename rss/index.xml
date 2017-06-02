@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://rohithkrajan.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 02 Jun 2017 08:33:30 GMT</lastBuildDate><atom:link href="https://rohithkrajan.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Understanding VS Code  debugging for .net core]]></title><description><![CDATA[<div class="paragraph">
-<p>First thing you need to work VSCode and .net core is CSharp extension</p>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://rohithkrajan.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 02 Jun 2017 08:40:21 GMT</lastBuildDate><atom:link href="https://rohithkrajan.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Understanding VS Code  debugging for .net core]]></title><description><![CDATA[<div class="paragraph">
+<p>First thing you need to work with .net core in vscode is CSharp extension .
+You can get that (here)[<a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp" class="bare">https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp</a>]</p>
 </div>
 <div class="paragraph">
 <p>After installing VSCode,install C# extension</p>
@@ -7,17 +8,17 @@
 <div class="paragraph">
 <p>After that when you open your</p>
 </div>
-<div class="paragraph">
-<p>Updating C# dependencies&#8230;&#8203;
-Platform: win32, x86_64</p>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>Updating C# dependencies...
+Platform: win32, x86_64
+
+Downloading package 'OmniSharp (.NET 4.6 / x64)' (15684 KB) .................... Done!
+Downloading package '.NET Core Debugger (Windows / x64)' (43510 KB) .................... Done!
+
+Installing package 'OmniSharp (.NET 4.6 / x64)'
+Installing package '.NET Core Debugger (Windows / x64)'</code></pre>
 </div>
-<div class="paragraph">
-<p>Downloading package 'OmniSharp (.NET 4.6 / x64)' (15684 KB) &#8230;&#8203;&#8230;&#8203;&#8230;&#8203;&#8230;&#8203;&#8230;&#8203;&#8230;&#8203;.. Done!
-Downloading package '.NET Core Debugger (Windows / x64)' (43510 KB) &#8230;&#8203;&#8230;&#8203;&#8230;&#8203;&#8230;&#8203;&#8230;&#8203;&#8230;&#8203;.. Done!</p>
-</div>
-<div class="paragraph">
-<p>Installing package 'OmniSharp (.NET 4.6 / x64)'
-Installing package '.NET Core Debugger (Windows / x64)'</p>
 </div>]]></description><link>https://rohithkrajan.github.io/2017/06/02/Understanding-VS-Code-debugging-for-net-core.html</link><guid isPermaLink="true">https://rohithkrajan.github.io/2017/06/02/Understanding-VS-Code-debugging-for-net-core.html</guid><category><![CDATA[dotnetcore]]></category><category><![CDATA[ .netcore]]></category><category><![CDATA[ vscode]]></category><pubDate>Fri, 02 Jun 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[MicroServices checklist]]></title><description><![CDATA[<div class="paragraph">
 <p>Are you planning to convert your application to microservices or fresh start developing on microservices architecture ? Think again!.</p>
 </div>
