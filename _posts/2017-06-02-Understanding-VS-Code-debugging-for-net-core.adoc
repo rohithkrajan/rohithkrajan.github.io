@@ -1,0 +1,18 @@
+= Understanding VS Code  debugging for .net core
+:published_at: 2017-06-02
+:hp-tags: dotnetcore, .netcore, vscode
+
+First thing you need to work VSCode and .net core is CSharp extension 
+
+After installing VSCode,install C# extension
+
+After that when you open your 
+
+Updating C# dependencies...
+Platform: win32, x86_64
+
+Downloading package 'OmniSharp (.NET 4.6 / x64)' (15684 KB) .................... Done!
+Downloading package '.NET Core Debugger (Windows / x64)' (43510 KB) .................... Done!
+
+Installing package 'OmniSharp (.NET 4.6 / x64)'
+Installing package '.NET Core Debugger (Windows / x64)'
