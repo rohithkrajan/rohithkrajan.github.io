@@ -13,14 +13,15 @@
     <link rel="shortcut icon" href="https://rohithkrajan.github.io/favicon.ico">
 
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:400,700,400italic,700italic|Open+Sans:400italic,700italic,700,400">
-    <link rel="stylesheet" type="text/css" href="//rohithkrajan.github.io/themes/roon/assets/css/screen.css?v=1496392410386" />
+    <link rel="stylesheet" type="text/css" href="//rohithkrajan.github.io/themes/roon/assets/css/screen.css?v=1498718173272" />
 
     <link rel="canonical" href="https://rohithkrajan.github.io/2017/06/02/Understanding-VS-Code-debugging-for-net-core.html" />
     <meta name="referrer" content="origin" />
     
+    <meta property="og:site_name" content="Rohith Rajan&#x27;s Blog" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Understanding VS Code  debugging for .net core" />
-    <meta property="og:description" content="First thing you need to work VSCode and .net core is CSharp extension After installing VSCode,install C# extension After that when you open your Updating C# dependencies&amp;#8230;&amp;#8203; Platform: win32, x86_64 Downloading package &#x27;OmniSharp (.NET 4.6 / x64)&#x27; (15684 KB) &amp;#8230;&amp;#8203;&amp;#8230;&amp;#8203;&amp;#8230;&amp;#8203;" />
+    <meta property="og:description" content="First thing you need to work with .net core in vscode is CSharp extension . You can get that (here)[https://marketplace.visualstudio.com/items?itemName&#x3D;ms-vscode.csharp] After installing VSCode,install C# extension After that when you open your Updating C# dependencies... Platform: win32, x86_64 Downloading package &#x27;OmniSharp (.NET" />
     <meta property="og:url" content="https://rohithkrajan.github.io/2017/06/02/Understanding-VS-Code-debugging-for-net-core.html" />
     <meta property="article:tag" content="dotnetcore" />
     <meta property="article:tag" content=" .netcore" />
@@ -28,7 +29,7 @@
     
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Understanding VS Code  debugging for .net core" />
-    <meta name="twitter:description" content="First thing you need to work VSCode and .net core is CSharp extension After installing VSCode,install C# extension After that when you open your Updating C# dependencies&amp;#8230;&amp;#8203; Platform: win32, x86_64 Downloading package &#x27;OmniSharp (.NET 4.6 / x64)&#x27; (15684 KB) &amp;#8230;&amp;#8203;&amp;#8230;&amp;#8203;&amp;#8230;&amp;#8203;" />
+    <meta name="twitter:description" content="First thing you need to work with .net core in vscode is CSharp extension . You can get that (here)[https://marketplace.visualstudio.com/items?itemName&#x3D;ms-vscode.csharp] After installing VSCode,install C# extension After that when you open your Updating C# dependencies... Platform: win32, x86_64 Downloading package &#x27;OmniSharp (.NET" />
     <meta name="twitter:url" content="https://rohithkrajan.github.io/2017/06/02/Understanding-VS-Code-debugging-for-net-core.html" />
     
     <script type="application/ld+json">
@@ -36,7 +37,7 @@ null
     </script>
 
     <meta name="generator" content="HubPress" />
-    <link rel="alternate" type="application/rss+xml" title="" href="https://rohithkrajan.github.io/rss/" />
+    <link rel="alternate" type="application/rss+xml" title="Rohith Rajan&#x27;s Blog" href="https://rohithkrajan.github.io/rss/" />
 </head>
 <body class="post-template tag-dotnetcore tag-netcore tag-vscode  noimage">
 
@@ -46,13 +47,14 @@ null
     <article role="main" class="">
         <header>
             <a href="https://rohithkrajan.github.io" id="home_link">«</a>
-            <div class="meta"><time datetime="2017-06-02"><a href="https://rohithkrajan.github.io/2017/06/02/Understanding-VS-Code-debugging-for-net-core.html">June 02, 2017</a></time> <span class="count" id="js-reading-time"></span></div>
+            <div class="meta"><time datetime="2017-06-02"><a href="/">June 02, 2017</a></time> <span class="count" id="js-reading-time"></span></div>
             <h1>Understanding VS Code  debugging for .net core</h1>
         </header>
 
         <div class="text" id="js-post-content">
             <div class="paragraph">
-<p>First thing you need to work VSCode and .net core is CSharp extension</p>
+<p>First thing you need to work with .net core in vscode is CSharp extension .
+You can get that (here)[<a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp" class="bare">https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp</a>]</p>
 </div>
 <div class="paragraph">
 <p>After installing VSCode,install C# extension</p>
@@ -60,17 +62,17 @@ null
 <div class="paragraph">
 <p>After that when you open your</p>
 </div>
-<div class="paragraph">
-<p>Updating C# dependencies&#8230;&#8203;
-Platform: win32, x86_64</p>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>Updating C# dependencies...
+Platform: win32, x86_64
+
+Downloading package 'OmniSharp (.NET 4.6 / x64)' (15684 KB) .................... Done!
+Downloading package '.NET Core Debugger (Windows / x64)' (43510 KB) .................... Done!
+
+Installing package 'OmniSharp (.NET 4.6 / x64)'
+Installing package '.NET Core Debugger (Windows / x64)'</code></pre>
 </div>
-<div class="paragraph">
-<p>Downloading package 'OmniSharp (.NET 4.6 / x64)' (15684 KB) &#8230;&#8203;&#8230;&#8203;&#8230;&#8203;&#8230;&#8203;&#8230;&#8203;&#8230;&#8203;.. Done!
-Downloading package '.NET Core Debugger (Windows / x64)' (43510 KB) &#8230;&#8203;&#8230;&#8203;&#8230;&#8203;&#8230;&#8203;&#8230;&#8203;&#8230;&#8203;.. Done!</p>
-</div>
-<div class="paragraph">
-<p>Installing package 'OmniSharp (.NET 4.6 / x64)'
-Installing package '.NET Core Debugger (Windows / x64)'</p>
 </div>
         </div>
 
@@ -79,7 +81,7 @@ Installing package '.NET Core Debugger (Windows / x64)'</p>
                 <span aria-hidden="true" data-icon="S"></span>
                 <strong>Share</strong>
             </a>
-            <a href="http://twitter.com/share?text=Understanding%20VS%20Code%20%20debugging%20for%20.net%20core&url=https://rohithkrajan.github.io/2017/06/02/Understanding-VS-Code-debugging-for-net-core.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" id="btn_comment" class="btn" target="_blank">
+            <a href="http://twitter.com/share?text=Understanding%20VS%20Code%20%20debugging%20for%20.net%20core&url=https://rohithkrajan.github.io/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" id="btn_comment" class="btn" target="_blank">
                 <span aria-hidden="true" data-icon="C"></span> Comment on Twitter
             </a>
         </menu>
@@ -144,7 +146,7 @@ Installing package '.NET Core Debugger (Windows / x64)'</p>
                     </div>
 
                     <div id="pinit-btn">
-                        <a href="//pinterest.com/pin/create/button/?url=https://rohithkrajan.github.io/2017/06/02/Understanding-VS-Code-debugging-for-net-core.html&amp;description=Understanding%20VS%20Code%20%20debugging%20for%20.net%20core-%5Bobject%20Object%5D " data-pin-do="buttonPin" data-pin-config="beside"><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png"></a>
+                        <a href="//pinterest.com/pin/create/button/?url=https://rohithkrajan.github.io/&amp;description=Understanding%20VS%20Code%20%20debugging%20for%20.net%20core-Rohith%20Rajan's%20Blog " data-pin-do="buttonPin" data-pin-config="beside"><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png"></a>
                         <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
                     </div>
                 </div>
