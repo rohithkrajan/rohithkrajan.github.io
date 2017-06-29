@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rohith Rajan's Blog]]></title><description><![CDATA[yet another ' Full Stack Developer ' :)]]></description><link>https://rohithkrajan.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 29 Jun 2017 06:37:54 GMT</lastBuildDate><atom:link href="https://rohithkrajan.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Understanding VS Code  debugging for .net core]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rohith Rajan's Blog]]></title><description><![CDATA[yet another ' Full Stack Developer ' :)]]></description><link>https://rohithkrajan.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 29 Jun 2017 06:39:53 GMT</lastBuildDate><atom:link href="https://rohithkrajan.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[When and How asp.net runtime loads a particular dll]]></title><description><![CDATA[<div class="paragraph">
+<p>This is cross posting from my msdn which talks about when and how asp.net runtime loads a dll.Please check this <a href="https://blogs.msdn.microsoft.com/rohithrajan/2017/06/29/when-and-how-does-asp-net-runtime-load-dlls/">article</a></p>
+</div>
+<div class="paragraph">
+<p>I got the need for this post where lot of people are facing issues where some dlls are getting loaded into the process and may be throwing unable to find the dll.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://stackoverflow.com/questions/44702321/asp-net-dll-not-found-error-for-unused-dll">asp.net dll not found for unused dll</a></p>
+</li>
+<li>
+<p><a href="https://stackoverflow.com/questions/16095432/asp-net-assembly-not-found">ASP.NET - Assembly Not Found</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>I also faced similar issue where a dll not related to my project is trying to get loaded to my application and causing issues.So that rigerred this post.</p>
+</div>
+<div class="paragraph">
+<p>Hope it helps someone !</p>
+</div>]]></description><link>https://rohithkrajan.github.io/2017/06/29/When-and-How-aspnet-runtime-loads-a-particular-dll.html</link><guid isPermaLink="true">https://rohithkrajan.github.io/2017/06/29/When-and-How-aspnet-runtime-loads-a-particular-dll.html</guid><category><![CDATA[asp.net]]></category><pubDate>Thu, 29 Jun 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Understanding VS Code  debugging for .net core]]></title><description><![CDATA[<div class="paragraph">
 <p>First thing you need to work with .net core in vscode is CSharp extension .
 You can get that (here)[<a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp" class="bare">https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp</a>]</p>
 </div>
