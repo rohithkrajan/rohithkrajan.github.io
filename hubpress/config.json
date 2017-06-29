@@ -4,7 +4,10 @@
     "repositoryName": "rohithkrajan.github.io",
     "branch": "master"
   },
-  "site": {},
+  "site": {
+    "title": "Rohith Rajan's Blog",
+    "description": "just another Full Stack Developer"
+  },
   "socialnetwork": {},
   "theme": {
     "name": "roon"
